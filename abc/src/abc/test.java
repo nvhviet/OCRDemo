@@ -18,7 +18,7 @@ public class test {
 			System.out.println(i);
 		}
 		//chuyen 2, 3, 5
-		for(int i : new int[]{4,2,1}){//5 3 2
+		for(int i : new int[]{4,2,1}){//5 3 2, 6
 			int obj = test.remove(i);
 			test.add(0, obj);
 		}
